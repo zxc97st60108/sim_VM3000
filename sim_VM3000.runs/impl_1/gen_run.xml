@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1607860677">
+  <File Type="BITSTR-BMM" Name="vm3000_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="vm3000_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="vm3000_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="vm3000_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="vm3000.tcl"/>
+  <File Type="OPT-TIMING" Name="vm3000_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="vm3000_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="vm3000_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="vm3000_reports.tcl"/>
+  <File Type="OPT-DRC" Name="vm3000_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="vm3000.hwdef"/>
+  <File Type="PWROPT-DCP" Name="vm3000_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="vm3000_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="vm3000_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="vm3000_placed.dcp"/>
+  <File Type="PLACE-IO" Name="vm3000_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="vm3000_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="vm3000_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="vm3000_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="vm3000_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="vm3000_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="vm3000_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="vm3000.bgn"/>
+  <File Type="PLACE-TIMING" Name="vm3000_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="vm3000_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="vm3000.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="vm3000_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="vm3000_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="vm3000_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="vm3000.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="vm3000_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="vm3000_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="vm3000_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="vm3000_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="vm3000_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="vm3000_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="vm3000.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="vm3000_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="vm3000.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="vm3000_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="vm3000_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="vm3000.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="vm3000_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="vm3000_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="vm3000_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="vm3000_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="vm3000_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="vm3000_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="vm3000_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="vm3000_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="vm3000_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="vm3000_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="vm3000_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="vm3000_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="vm3000_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="vm3000_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="vm3000_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="vm3000_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="vm3000_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="vm3000_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="vm3000_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="vm3000.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="vm3000_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="vm3000.rbt"/>
+  <File Type="BITSTR-NKY" Name="vm3000.nky"/>
+  <File Type="BG-DRC" Name="vm3000.drc"/>
+  <File Type="RDI-RDI" Name="vm3000.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/src/prom.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/sysctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../catch_pdm_zedboard/src/sysctrl.v"/>
+        <Attr Name="ImportTime" Val="1607790090"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/pdm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../catch_pdm_zedboard/src/pdm.v"/>
+        <Attr Name="ImportTime" Val="1607840777"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="vm3000"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/LAB作業/Nexys-4-DDR-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../lab3/lab3.srcs/constrs_1/imports/LAB作業/Nexys-4-DDR-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1584929806"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
