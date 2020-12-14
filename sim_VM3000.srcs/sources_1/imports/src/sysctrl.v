@@ -1,5 +1,4 @@
 module sysctrl(
-           input wire inter_clk,
            input wire pdm_clk,
            output wire LED_clk,
            output reg [2:0] pidx	//memory_idx
@@ -12,7 +11,7 @@ reg CS, NS;
 reg cnt_en;
 
 //? current state register
-always@(posedge inter_clk ) begin
+always@(posedge pdm_clk ) begin
 
     CS<=NS;
 end

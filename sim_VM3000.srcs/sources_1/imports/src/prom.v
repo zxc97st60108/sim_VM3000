@@ -11,7 +11,7 @@ module prom(
 reg [7:0] pattern;
 
 always @(posedge inter_clk) begin
-    pattern <= SW ? 8'b0000_0000 : 8'b0101_1010;
+    pattern <= SW ? 8'b0101_1010 : 8'b1111_1111;
 end
 
 always @(posedge clk) begin
