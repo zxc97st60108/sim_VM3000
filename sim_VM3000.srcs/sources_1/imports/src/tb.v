@@ -5,39 +5,39 @@
 module tb;
 
 reg pdmclk;
-reg SW;
+//reg SW;
 wire pdm_signal;
-reg rst;
+//reg rst;
 wire led0;
 wire led1;
 
 vm3000 pdm(
            .PDMclk(pdmclk),
-		   .SW(SW),
+		   //.SW(SW),
            .LED_clk(led0),
            .LED_pdm(led1),
-           .rst(rst),
+           //.rst(rst),
            .pdm_signal(pdm_signal)
        );
 
 initial begin
     pdmclk = 0;
-	rst = 0;
-	SW = 1;
+	//rst = 0;
+	//SW = 1;
     forever begin
         #333
          pdmclk = 1;
-        $display("pdm_signal = %b , led0 = %b , led1 = %b , rst = %b\n", pdm_signal , led0 , led1 , rst);
+        $display("pdm_signal = %b , led0 = %b , led1 = %b \n", pdm_signal , led0 , led1);
         #333
          pdmclk = 0;
-        $display("pdm_signal = %b , led0 = %b , led1 = %b , rst = %b\n", pdm_signal , led0 , led1 , rst);
+        $display("pdm_signal = %b , led0 = %b , led1 = %b \n", pdm_signal , led0 , led1);
     end
 end
 
-initial begin
+/*initial begin
 	#10000 rst = 1;
 	#10100 rst = 0;
-end
+end*/
 
 initial begin
     $dumpfile("dump.vcd");
