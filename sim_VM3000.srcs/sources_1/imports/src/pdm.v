@@ -1,7 +1,7 @@
 module vm3000(
            input wire PDMclk,
            //input wire SW,
-		   //input wire rst,
+		   input wire rst,
            output wire LED_clk,
            output wire LED_pdm,
            output wire pdm_signal
@@ -22,7 +22,7 @@ prom prom_m(
          .clk(PDMclk),
          //.pidx(pidx),
          //.SW(SW),
-         //.rst(rst),
+         .rst(rst),
          .LED_pdm(LED_pdm),
          .out_pattern(pdm_signal)
      );
