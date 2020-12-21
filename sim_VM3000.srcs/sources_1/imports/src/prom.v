@@ -14,10 +14,10 @@ reg[31:0] n;
 
 always @(posedge clk or posedge rst) begin
     if(rst) begin
-    $display("rst!!!!!!!!!!!!\n");
+    //$display("rst!!!!!!!!!!!!\n");
     $readmemb("pdm.txt",pdm_data);
     n <= 32'd0;
-    $display("n = %d\n", n);
+    //$display("n = %d\n", n);
     end
     else if(n <= 1536000)begin
     out_pattern <= pdm_data[n];
