@@ -1,5 +1,6 @@
 module vm3000(
-           input wire PDMclk,
+        //    input wire PDMclk,
+           input wire inter_clk,
            //input wire SW,
 		   input wire rst,
            output wire LED_clk,
@@ -12,14 +13,14 @@ module vm3000(
 //TODO: control module
 
 sysctrl ctrl_m(
-            .pdm_clk(PDMclk),
+            .pdm_clk(inter_clk),
             .LED_clk(LED_clk)
             //.pidx(pidx),
 			//.rst(rst)
         );
 
 prom prom_m(
-         .clk(PDMclk),
+         .clk(inter_clk),
          //.pidx(pidx),
          //.SW(SW),
          .rst(rst),

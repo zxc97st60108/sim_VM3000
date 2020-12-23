@@ -5,7 +5,7 @@
 
 ## Clock signal
 set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { inter_clk }]; #IO_L12P_T1_MRCC_35 Sch=clk100mhz
-create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports {inter_clk}];
+create_clock -add -name sys_clk_pin -period 666.00 -waveform {0 333} [get_ports {inter_clk}];
 
 
 ##Switches
@@ -112,7 +112,7 @@ set_property -dict { PACKAGE_PIN T15   IOSTANDARD LVCMOS33 } [get_ports { LED_cl
 set_property -dict { PACKAGE_PIN E16   IOSTANDARD LVCMOS33 } [get_ports { pdm_signal }]; #IO_L11N_T1_SRCC_15 Sch=jb[7]        clock capable
 #set_property -dict { PACKAGE_PIN F13   IOSTANDARD LVCMOS33 } [get_ports { JB[8] }]; #IO_L5P_T0_AD9P_15 Sch=jb[8]       
 #set_property -dict { PACKAGE_PIN G13   IOSTANDARD LVCMOS33 } [get_ports { JB[9] }]; #IO_0_15 Sch=jb[9]             
-set_property -dict { PACKAGE_PIN H16   IOSTANDARD LVCMOS33 } [get_ports { PDMclk }]; #IO_L13P_T2_MRCC_15 Sch=jb[10]        clock capable
+# set_property -dict { PACKAGE_PIN H16   IOSTANDARD LVCMOS33 } [get_ports { PDMclk }]; #IO_L13P_T2_MRCC_15 Sch=jb[10]        clock capable
 
 
 ##Pmod Header JC
